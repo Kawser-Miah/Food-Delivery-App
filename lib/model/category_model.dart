@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:equatable/equatable.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:food_delivery_app/generated/assets.dart';
@@ -16,14 +18,14 @@ class Category extends Equatable {
     Category(
         id: 1, name: 'Burger', image: SvgPicture.asset(Assets.iconsBurger)),
     Category(
-        id: 6, name: 'Drinks', image: SvgPicture.asset(Assets.iconsDrinks)),
+        id: 2, name: 'Pizza', image: SvgPicture.asset(Assets.iconsPizza)),
     Category(
-        id: 2, name: 'Ice Cream', image: SvgPicture.asset(Assets.iconsIceCream)),
+        id: 3, name: 'Biryani', image: SvgPicture.asset(Assets.iconsBiryani,)),
     Category(
-        id: 3, name: 'Pizza', image: SvgPicture.asset(Assets.iconsPizza)),
+        id: 4, name: 'Chinese', image: SvgPicture.asset(Assets.iconsChinese)),
     Category(
-        id: 4, name: 'Salad', image: SvgPicture.asset(Assets.iconsSalad)),
+        id: 5, name: 'Drinks', image: SvgPicture.asset(Assets.iconsDrinks)),
     Category(
-        id: 5, name: 'Dessert', image: SvgPicture.asset(Assets.iconsDessert)),
-  ];
+        id: 6, name: 'Dessert', image: SvgPicture.asset(Assets.iconsDessert)),
+      ];
 }

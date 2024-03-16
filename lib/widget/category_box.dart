@@ -9,7 +9,7 @@ class CategoryBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<Restaurant> restaurant = Restaurant.restaurants
-        .where((restaurant) => restaurant.tags.contains(category.name))
+        .where((restaurant) => restaurant.categoryId.contains(category.id))
         .toList();
     return InkWell(
       onTap: () {
