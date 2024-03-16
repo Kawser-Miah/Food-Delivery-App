@@ -2,7 +2,9 @@
 class Assets {
   Assets._();
 
+  static const String iconsBiryani = 'icons/biryani.svg';
   static const String iconsBurger = 'icons/burger.svg';
+  static const String iconsChinese = 'icons/chinese.svg';
   static const String iconsDessert = 'icons/dessert.svg';
   static const String iconsDrinks = 'icons/drinks.svg';
   static const String iconsIceCream = 'icons/ice-cream.svg';
