@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/config/theme.dart';
 import 'package:food_delivery_app/model/models.dart';
 import '../../widget/widgets.dart';
 
